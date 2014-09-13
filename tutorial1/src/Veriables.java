@@ -27,6 +27,8 @@ public class Veriables {
         int ten=10;
         int sum = five + ten;
         System.out.println(sum);
+        sum=ten+ten;
+        System.out.println(sum);
         
     }
 
