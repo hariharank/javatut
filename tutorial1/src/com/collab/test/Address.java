@@ -1,14 +1,22 @@
 package com.collab.test;
 
 public class Address {
-    private String street1;
-    private String street2;
     
-    /*Address(String street1,String street2){
-        this.street1=street1;
-        this.street2=street2;
-    }*/
+    private String address;
+        
+    public void setaddress(String street1,String street2){
+        
+        StringBuilder sb=new StringBuilder();
+        sb.append(street1).append(" ").append(street2);
+        address=sb.toString();
+        //this.street1=street1;
+        //this.street2=street2;
+    }
+    public String getaddress(){
+        return address;
+    }
     
+    /*
     public String getStreet1() {
         return street1;
     }
@@ -23,6 +31,6 @@ public class Address {
     
     public void setStreet2(String street2) {
         this.street2 = street2;
-    }
+    }*/
 
 }

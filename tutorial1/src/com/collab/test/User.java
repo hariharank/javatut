@@ -38,7 +38,7 @@ class User{
     }
 
     public String toString(){
-        return (fname+" "+lname+myAddress.getStreet1()+myAddress.getStreet2()+myCompany.getCompanyName()+myCompany.getCompanyAddress().getStreet1()+myCompany.getCompanyAddress().getStreet1());
+        return (fname+" "+lname+" "+myAddress.getaddress()+" "+myCompany.getCompanyName()+" "+myCompany.getCompanyAddress().getaddress());
     }
 
 }
